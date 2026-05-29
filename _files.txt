@@ -1,0 +1,8 @@
+./_files.txt
+./editor.txt
+./editor.htm
+./Utils.js
+./setUtils.js
+./main.js
+./style.css
+./img/icon.gif

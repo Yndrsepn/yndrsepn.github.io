@@ -1,0 +1,56 @@
+<!doctype html>
+<!--
+	editor.htm
+	Copyright 2026 YttriumLab
+	Author: YttriumLab
+	Personal project license:
+		- Free to use and modify for personal, non-commercial purposes
+		- Do not redistribute or claim as your own work
+-->
+<!-- Thanks for viewing source! -->
+<html lang='en'>
+	<head>
+		<script type='text/javascript'>
+			var VERSION='1.3.0';
+			var BETA=false;
+			var DEBUG=false;
+		</script>
+		<meta http-equiv='content-type' content='text/html;charset=utf-8' />
+		<link rel='preconnect' href='https://fonts.googleapis.com' />
+		<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin='anonymous' />
+		<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&amp;display=swap' />
+		<link rel='shortcut icon' type='image/gif' href='./img/icon.gif' />
+		<link rel='stylesheet' type='text/css' href='./style.css' />
+		<script type='text/javascript' src='https://cdn.jsdelivr.net/gh/eligrey/FileSaver.js/src/FileSaver.js'></script>
+		<script type='text/javascript' src='./Utils.js'></script>
+		<script type='text/javascript' src='./setUtils.js'></script>
+		<script type='text/javascript' src='./main.js'></script>
+		<title>Yttrium Notepad</title>
+	</head>
+	<body>
+		<!--div id='versionNumber'></div-->
+		<script type='text/javascript'>
+			//document.getElementById('versionNumber').innerHTML='v. '+VERSION;
+		</script>
+		
+		<textarea id='editor' placeholder='This is an editor, but ...'></textarea>
+		<script type='text/javascript'>l('editor').focus();</script>
+		<script type='text/javascript'>
+			/*
+			//resize the editor
+			(function()
+			{
+				var editor=l('editor');
+				var AutoResize=function(el)
+				{
+					el.style.height='auto';
+					el.style.height=el.scrollHeight+'px';
+				}
+				AutoResize(editor);
+				AddEvent(editor,'input',function(){AutoResize(editor);});
+			})();
+			*/
+			//unfortunately, this approach wasn't practical at all!
+		</script>
+	</body>
+</html>
