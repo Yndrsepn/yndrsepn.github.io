@@ -8,14 +8,14 @@
 		- Do not redistribute or claim as your own work
 -->
 <html lang='en'>
-        <head>
-                <script type='text/javascript'>
-                        var VERSION='1.0.0';
-                        var BETA=false;
-                        var DEBUG=true;
-                </script>
-                <meta http-equiv='content-type' content='text/html;charset=utf-8' />
-                <link rel='shortcut icon' type='image/gif' href='./img/icon.gif' />
+	<head>
+		<script type='text/javascript'>
+			var VERSION='1.0.0';
+			var BETA=false;
+			var DEBUG=true;
+		</script>
+		<meta http-equiv='content-type' content='text/html;charset=utf-8' />
+		<link rel='shortcut icon' type='image/gif' href='./img/icon.gif' />
 		<link rel='preconnect' href='https://fonts.googleapis.com' />
 		<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin='anonymous' />
 		<link type='text/css' rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&amp;display=swap' />
@@ -92,7 +92,7 @@
 				color:#666;
 			}
 		</style>
-		<title>'YNDRSEPN (ALSO KNOWN AS YTTRIUMLAB)'</title>
+		<title>YNDRSEPN (ALSO KNOWN AS YTTRIUMLAB)</title>
 	</head>
 	<body>
 		<div id='versionNumber'></div>
